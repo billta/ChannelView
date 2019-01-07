@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //友盟多渠道打包
     private String getChannel() {
         try {
             PackageManager pm = getPackageManager();
